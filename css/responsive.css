@@ -1,4 +1,4 @@
-/* Allineare il titolo al centro */
+/* SITE HEADER: Allineare il titolo al centro */
 @media  screen and (max-width: 768px) {
     body{
         display: flex;
@@ -14,7 +14,7 @@
 }
 
 
-/* Allineare img e testo che fuoriescono*/
+/* LESSONS SECTION: Allineare img e testo che fuoriescono*/
 
 @media  screen and (max-width: 768px) {
     .container{
@@ -39,8 +39,29 @@
 }
 
 
-/**/
+/* STEPS SECTION: Allineare card in colonna*/
+@media  screen and (max-width: 576px) { 
+    .steps .col {
+        width: 100%;
+        margin: 0 auto;
+    }
 
+    .steps .col img {
+        margin: 2rem 0;
+    }
+
+    div.container{
+        max-width: 576px;
+     }
+
+    .text{
+        padding: 20px 70px;
+    }
+
+    h3.title{
+        margin-bottom: 0rem ;
+    }
+}
 
 
 /**/
