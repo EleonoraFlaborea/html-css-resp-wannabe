@@ -54,11 +54,11 @@
         max-width: 576px;
      }
 
-    .text{
+    .steps .text{
         padding: 20px 70px;
     }
 
-    h3.title{
+    .steps .title{
         margin-bottom: 0rem ;
     }
 }
