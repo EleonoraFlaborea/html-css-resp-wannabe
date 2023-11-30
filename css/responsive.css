@@ -14,8 +14,29 @@
 }
 
 
-/**/
+/* Allineare img e testo che fuoriescono*/
 
+@media  screen and (max-width: 768px) {
+    .container{
+	   max-width: 768px;
+    }
+}
+
+@media  screen and (max-width: 576px) {
+    .row{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .lessons .col img{
+        margin-top: 2rem;
+    }
+}
 
 
 /**/
