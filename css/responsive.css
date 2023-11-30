@@ -1,0 +1,25 @@
+/* Allineare il titolo al centro */
+@media  screen and (max-width: 768px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media  screen and (max-width: 576px) {
+    .text-center{
+        font-size: 3.5rem;
+    }
+}
+
+
+/**/
+
+
+
+/**/
+
+
+
+/**/
